@@ -1,1 +1,1 @@
-﻿Demos.Demo1();
+﻿Demos.Demo2();

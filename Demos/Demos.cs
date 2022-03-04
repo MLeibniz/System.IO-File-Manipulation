@@ -2,7 +2,7 @@ using static System.Console;
 
 public static class Demos
 {
-    public static void Demo1()
+    public static void CreatingFiles()
     {
         string file = SanitizeFileName();
         string path = Path.Combine(Environment.CurrentDirectory, $"{file}.txt");
@@ -11,7 +11,7 @@ public static class Demos
 
         static void CreateFile(string path)
         {
-            using (var sw = File.CreateText(path))
+            using (var sw = System.IO.File.CreateText(path))
             {
                 for (int i = 0; i < 2; i++)
                 {
@@ -33,6 +33,29 @@ public static class Demos
 
             return name;
         }
+    }
+
+    public static void CreatingDirectories()
+    {
+        var path = Path.Combine(Environment.CurrentDirectory, "globe");
+        var dirGlobe = Directory.CreateDirectory(path);
+        var dirNorAm = dirGlobe.CreateSubdirectory("North America");
+        var dirCenAm = dirGlobe.CreateSubdirectory("Central America");
+        var dirSouAm = dirGlobe.CreateSubdirectory("South America");
+
+        var dirBra = dirSouAm.CreateSubdirectory("Brazil");
+        var dirArg = dirSouAm.CreateSubdirectory("Argentina");
+        var dirChi = dirSouAm.CreateSubdirectory("Chile");
+
+        var dirElS = dirCenAm.CreateSubdirectory("El Salvador");
+        var dirPan = dirCenAm.CreateSubdirectory("Panama");
+        var dirGua = dirCenAm.CreateSubdirectory("Guatemala");
+
+        var dirMex = dirNorAm.CreateSubdirectory("Mexico");
+        var dirUSA = dirNorAm.CreateSubdirectory("USA");
+        var dirCan = dirNorAm.CreateSubdirectory("Canada");
+
+
     }
 }
 
