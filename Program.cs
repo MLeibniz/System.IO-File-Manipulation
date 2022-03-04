@@ -1,1 +1,3 @@
-﻿Demos.Demo2();
+﻿Demos.CreatingFiles();
+Demos.CreatingDirectories();
+Demos.MovingFiles();
