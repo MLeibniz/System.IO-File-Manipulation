@@ -1,2 +1,32 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+
+string file = SanitizeFileName();
+string path = Path.Combine(Environment.CurrentDirectory, $"{file}.txt");
+
+CreateFile(path);
+
+static void CreateFile(string path)
+{
+    using (var sw = File.CreateText(path))
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            WriteLine($"Write for line {i + 1}:");
+            sw.WriteLine(ReadLine());
+        }
+    }
+}
+
+static string SanitizeFileName()
+{
+    WriteLine("File name:");
+    string name = ReadLine();
+
+    foreach(char @char in Path.GetInvalidFileNameChars())
+    {
+        name = name.Replace(@char,'-');
+    }
+
+    return name;
+}
+

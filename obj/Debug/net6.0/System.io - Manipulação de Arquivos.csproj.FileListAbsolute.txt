@@ -1,0 +1,15 @@
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\bin\Debug\net6.0\System.io - Manipulação de Arquivos.exe
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\bin\Debug\net6.0\System.io - Manipulação de Arquivos.deps.json
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\bin\Debug\net6.0\System.io - Manipulação de Arquivos.runtimeconfig.json
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\bin\Debug\net6.0\System.io - Manipulação de Arquivos.dll
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\bin\Debug\net6.0\System.io - Manipulação de Arquivos.pdb
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\System.io - Manipulação de Arquivos.csproj.AssemblyReference.cache
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\System.io - Manipulação de Arquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\System.io - Manipulação de Arquivos.AssemblyInfoInputs.cache
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\System.io - Manipulação de Arquivos.AssemblyInfo.cs
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\System.io - Manipulação de Arquivos.csproj.CoreCompileInputs.cache
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\System.io - Manipulação de Arquivos.dll
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\refint\System.io - Manipulação de Arquivos.dll
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\System.io - Manipulação de Arquivos.pdb
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\System.io - Manipulação de Arquivos.genruntimeconfig.cache
+C:\Users\Leibniz\source\repos\System.io - Manipulação de Arquivos\obj\Debug\net6.0\ref\System.io - Manipulação de Arquivos.dll
