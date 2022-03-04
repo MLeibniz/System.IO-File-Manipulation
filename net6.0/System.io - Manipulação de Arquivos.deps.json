@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "System.io - Manipulação de Arquivos/1.0.0": {
+        "runtime": {
+          "System.io - Manipulação de Arquivos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.io - Manipulação de Arquivos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
